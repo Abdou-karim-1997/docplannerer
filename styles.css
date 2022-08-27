@@ -1,0 +1,172 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    align-items: center;
+    color: grey;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 30PX;
+
+}
+h1 span{
+    color: rgb(12, 216, 148);
+}
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+nav .qui{
+    color: rgb(12, 216, 148);
+}
+nav ul li a:hover{
+    color: rgb(12, 216, 148);
+}
+.section1{
+    text-align: center;
+    margin: 50px;
+}
+.section1 h2{
+    color: rgb(12, 216, 148);
+}
+.section1 div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cartes{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.carte1{
+    padding: 10px 20px;
+    background-color: rgb(12, 216, 148);
+
+}
+.carte2{
+    padding: 10px 20px;
+    background-color: rgb(28, 28, 223);
+
+}
+.carte3{
+    padding: 10px 20px;
+    background-color: rgb(31, 25, 25);
+
+}
+.section3{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section3 h4{
+    color:  rgb(12, 216, 148);
+}
+.section3 div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.contenu{
+    background-color: rgb(133, 240, 204);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.blog1{
+    padding: 30px;
+}
+.blog1 h4{
+    color: rgb(12, 216, 148);
+    padding: 10px;
+}
+
+.blog1 img{
+    width: 250px;
+    margin: 10px;
+}
+
+.blog2{
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 20px 0;
+}
+
+.blog{
+    background: white;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.blog h5{
+    color: rgb(12, 216, 148);
+}
+
+.section5{
+    text-align: center;
+    margin: 20px;
+}
+
+.section5 h4{
+    color:rgb(12, 216, 148);
+    font-size: 19px;
+}
+
+.IMAGES{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 150px;
+}
+
+.IMAGE{
+    background-color: rgb(241, 239, 239);
+    margin: 10px;
+
+}
+
+.IMAGE div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.IMAGE div a{
+    text-decoration: none;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+}
+
+.section7{
+    text-align: center;
+    margin: 50px;
+}
+
+.section7 a{
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.section7 h4{
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+    margin: 20px;
+}
